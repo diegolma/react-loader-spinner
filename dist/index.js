@@ -156,7 +156,7 @@
 
         return _react2.default.createElement(
           "div",
-          null,
+          {className: "fixed-top loader-div"},
           this.svgRenderer(type)
         );
       }
